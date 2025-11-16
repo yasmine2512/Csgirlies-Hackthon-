@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div class="header" style="padding-top: 50px">
+      <button id="music-toggle-button" class="music-icon">🎶</button>
+      <a href="#" class="profile-btn">
+        <img src="assets/images/sample_profile_1.png" alt="Profile" />
+      </a>
+    </div>
+
+    <!-- centered login box -->
+    <div class="auth-container">
+      <h1 class="page-title">Login / Signup</h1>
+
+      <div class="auth-box">
+        <input type="text" id="username" placeholder="Username" required />
+        <input type="password" id="password" placeholder="Password" required />
+
+        <div class="button-group">
+          <button id="login-btn" class="primary-btn">Login</button>
+          <button id="register-btn" class="primary-btn">Register</button>
+        </div>
+
+        <p id="auth-error" class="error-msg"></p>
+      </div>
+    </div>
+
+    <script src="scripts/auth.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

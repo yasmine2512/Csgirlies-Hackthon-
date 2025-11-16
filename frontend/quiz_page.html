@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Practice - Question 5</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body data-page="quiz">
+    <div class="header">
+      <button id="music-toggle-button" class="music-icon">🎶</button>
+      <div class="user-info">
+        <div class="animal-icon"></div>
+      </div>
+      <a href="practise.html" class="profile-btn">
+        <img src="assets/images/sample_profile_1.png" alt="Profile" />
+      </a>
+    </div>
+
+    <div class="quiz-container">
+      <div id="question-content">
+        <h2>Loading Question...</h2>
+      </div>
+
+      <div class="navigation-footer">
+        <nav id="question-navigation">
+          <button class="nav-circle" data-question-id="1">1.</button>
+          <button class="nav-circle" data-question-id="2">2.</button>
+          <button class="nav-circle" data-question-id="3">3.</button>
+          <button class="nav-circle" data-question-id="4">4.</button>
+          <button class="nav-circle" data-question-id="5">5.</button>
+          <button class="nav-circle" data-question-id="6">6.</button>
+          <button class="nav-circle" data-question-id="7">7.</button>
+          <button class="nav-circle" data-question-id="8">8.</button>
+          <button class="nav-circle" data-question-id="9">9.</button>
+          <button class="nav-circle" data-question-id="10">10.</button>
+        </nav>
+      </div>
+      <div class="quiz-navigation">
+    <button id="next-question-btn">Next</button>
+      </div>
+
+      <div id="question-feedback" class="feedback"></div>
+      <div id="question-explanation" class="explanation"></div>
+      <button id="submit-quiz-btn" class="submit-quiz-btn" disabled>
+        SUBMIT
+      </button>
+    </div>
+
+    <script src="scripts/quiz_page.js"></script>
+  </body>
+</html>
