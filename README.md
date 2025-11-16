@@ -52,7 +52,7 @@ The tool is built using JavaScript, Node.js, MongoDB, and the OpenAI API, offeri
 ---
 
 ## AI Assistance Statement
-This project was developed with assistance from AI tools (ChatGPT, Gemini, BlackBox AI) for code generation, debugging, design, and documentation. All AI-generated components were reviewed, tested, and customized to meet project requirements. The core architecture and design decisions remain human-created.
+This project was developed with assistance from AI tools (ChatGPT, Gemini, BlackBox AI) for code generation, debugging, and documentation. All AI-generated components were reviewed, tested, and customized to meet project requirements. The core architecture and design decisions remain human-created.
 
 ---
 
