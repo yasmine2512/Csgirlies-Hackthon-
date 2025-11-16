@@ -2,22 +2,38 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing</title>
     <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
-    <header class="header">
-      <h1 class="page-title">Adaptive Learning</h1>
-      <a href="login.html" class="button button-upload button-green">
-        Sign In / Register
-      </a>
-    </header>
-    <main class="landing-main"></main>
-    <section class="landing-images">
-      <img src="assets/images/image1.png" alt="Image 1" class="landing-img" />
-      <img src="assets/images/image2.png" alt="Image 2" class="landing-img" />
-      <img src="assets/images/image3.png" alt="Image 3" class="landing-img" />
-    </section>
+    <div class="header">
+      <div class="icon-group">
+        <button id="music-toggle-button" class="music-icon">🎶</button>
+
+        <a href="login.html" class="button button-landing">SIGN IN</a>
+      </div>
+    </div>
+
+    <div class="main-container landing-layout">
+      <h1 class="page-title">WELCOME TO LEARNHIVE</h1>
+
+      <div class="yellow-line"></div>
+
+      <p class="tagline">
+        A fun & adaptive learning platform that analyzes your strengths,
+        weaknesses, and learning habits to generate personalized practice.
+      </p>
+
+      <div class="yellow-line"></div>
+      <div class="feature-section">
+        <img
+          src="assets/images/landing.png"
+          class="feature-img"
+          alt="Feature Image 1"
+        />
+      </div>
+    </div>
 
     <script src="scripts/script.js"></script>
   </body>
